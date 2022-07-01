@@ -1,0 +1,26 @@
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.folder-img {
+    width: 3rem;
+}
+
+.album-title {
+    width: 3rem;
+    height: 2rem;
+    font-size: 0.5rem;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
