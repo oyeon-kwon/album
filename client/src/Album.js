@@ -18,7 +18,7 @@ function Album() {
 
     const openFolderHandler = (e) => {
         const id = e.target.parentElement.id;
-        navigate(`/${id}`);
+        navigate(`/album=${id}`);
     }
 
   return (

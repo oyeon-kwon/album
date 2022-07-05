@@ -1,6 +1,7 @@
 import './App.css';
 import Album from './Album';
 import Folder from './Folder';
+import ImageModal from './ImageModal';
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,7 +21,8 @@ function App() {
           </div>
           <Routes>
             <Route path='/' element={<Album />} />
-            <Route path='/:id' element={<Folder />} />
+            <Route path='/album=:id' element={<Folder />} />
+            <Route path='/album=:id/photo=:id' element={<ImageModal />} />
           </Routes>
         </Router>
     </div>
